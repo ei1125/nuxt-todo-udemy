@@ -6,6 +6,9 @@
 # install dependencies
 $ npm install
 
+$ npm install --save firebase@6.2.4
+$ npm install --save vuexfire@3.0.1
+$ npm install --save @nuxtjs/dotenv@1.3.0
 # serve with hot reload at localhost:3000
 $ npm run dev
 
