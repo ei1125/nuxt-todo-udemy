@@ -1,4 +1,4 @@
-
+const webpack = require('webpack')
 export default {
   /*
   ** Nuxt rendering mode
@@ -57,5 +57,10 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    plugins: [
+      new webpack.ProvidePlugin({
+        '_': 'lodash'
+      })
+    ]
   }
 }
